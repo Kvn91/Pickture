@@ -1,0 +1,63 @@
+#form_oublie{
+	position: absolute;
+	width: 1000px;
+	height: 400px;
+	left: 50%;
+	margin-left: -500px;
+	padding-top: 50px;
+	font-size: 40px;
+	color: rgba(255, 255, 255, 0.3);
+}
+
+#email_oublie{
+	position: absolute;
+	margin-top: 50px;
+	left: 50%;
+	margin-left: -200px;
+	width: 400px;
+	height: 80px;
+	font-size: 30px;
+	padding-left: 20px;
+}
+
+#envoi_email_oublie{
+	position: absolute;
+	top: 320px;
+	left: 50%;
+	margin-left: -200px;
+	width: 420px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	text-align: center;
+	border: 1px solid grey;
+	border-radius: 3px;
+	background-color: #000;
+	color: grey;
+}
+
+#envoi_email_oublie:hover{
+
+	cursor: pointer;
+	color: white;
+}
+
+.email_oublie_mauvais{
+	position: absolute;
+	left: 50%;
+	margin-left: -135px;
+	width: auto;
+	color: red;
+	font-size: 30px;
+	top: 400px;
+}
+
+.email_oublie_bon{
+	position: absolute;
+	left: 50%;
+	margin-left: -80px;
+	width: auto;
+	color: green;
+	font-size: 30px;
+	top: 400px;
+}

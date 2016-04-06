@@ -1,0 +1,89 @@
+#titre_modif{
+	position: absolute;
+	left: 50%;
+	margin-left: -400px;
+	width: 800px;
+	height: 200px;
+}
+
+#titre_modif h1{
+	font-family: 'Source Code Pro', sans-serif;
+	color: rgba(255,255,255,0.1);
+	font-size: 140px;
+	letter-spacing: -30px;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 30px;
+	line-height: 0.5em;
+	margin-bottom: -50px;
+	margin-left: -20px;
+	text-align: center;
+}
+
+#info_utlisateur form{
+	position: absolute;
+	top: 230px;
+	width: 280px;
+	left: 50%;
+	margin-left: -140px;
+}
+
+#info_utlisateur .input{
+	width: 350px;
+	padding-left: 10px;
+	font-size: 25px;
+	height: 50px;
+	margin-bottom: 10px;
+	resize: none;
+}
+
+#info_utlisateur label{
+	color: rgba(250, 129, 48, 0.8);
+	position: relative;
+	bottom: -17px;
+	right: -120px;
+	font-size: 30px;
+	float: right;
+	text-shadow: -2px 1px 0px #222;
+}
+
+#submit_modif{
+	margin-top: 50px;
+	width: auto;
+	border: none;
+	background-color: black;
+	color: grey;
+	height: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#submit_modif:hover{
+	cursor: pointer;
+	color: white;
+}
+
+#info_utlisateur {
+	position: relative;
+	left: 50%;
+	top: 20px;
+	margin-left: -500px;
+	width: 1000px;
+	height: 1050px;
+}
+
+#changement_ok{
+	color: green;
+	position: absolute;
+	top: 220px;
+	left: 50%;
+	margin-left: -80px;
+}
+
+#changement_erreur{
+	color: red;
+	position: absolute;
+	top: 200px;
+	left: 50%;
+	margin-left: -80px;
+}
